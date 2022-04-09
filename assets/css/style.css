@@ -101,7 +101,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   video{
-    width: 150px;
+    width: 200px;
+    height: 300px;
   }
   [data-aos-delay] {
     transition-delay: 0 !important;
@@ -488,6 +489,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-height: 500px) {
+  video {
+    width: 200px;
+    height: 200px;
+  }
   #hero {
     height: 120vh;
   }
